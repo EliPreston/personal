@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+}
+
+  
+.container {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center
+}
+
+#sysiphus {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+#fire {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    display: none;
+}
+
+
+.info {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20%;
+    width: 30%;
+
+    align-content: center;
+    text-align: center;
+
+    color: white;
+    font-family: 'Times New Roman', serif;
+
+}
+
+.inline-link {
+    text-decoration: none;
+    color: rgb(233, 75, 13);
+    font-weight: bold;
+}
+.inline-link:hover {
+    text-decoration: underline;
+    /* color: rgb(237, 116, 68); */
+}
+
+
